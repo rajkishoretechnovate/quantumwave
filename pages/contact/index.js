@@ -1,11 +1,10 @@
-import Home from '@/components/home/Home'
+import Contact from '@/components/contact/Contact'
 import React from 'react'
 
 function index() {
   return (
     <div>
-      <Home/>
-
+      <Contact/>
     </div>
   )
 }
