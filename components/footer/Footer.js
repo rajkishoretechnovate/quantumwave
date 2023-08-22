@@ -11,11 +11,7 @@ function Footer() {
         <div className="col-lg-4 me-auto col-sm-6 col-md-6">
           <div className="widget footer-widget mb-5 mb-lg-0">
             <div className="footer-logo">
-              <img
-                src="assets/images/dark-logo.png"
-                alt="EduHash"
-                className="img-fluid"
-              />
+            <img src="assets/images/qlogo.png" alt="Quantum wave AI" className="img-fluid" />
             </div>
             <p className="mt-3">
               Veniam Sequi molestias aut necessitatibus optio magni at natus

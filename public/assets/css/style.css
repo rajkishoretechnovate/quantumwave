@@ -317,6 +317,9 @@ Banner Area
 .center-heading {
   text-align: Center;
 }
+.text-right {
+  text-align: right;
+}
 
 .center-heading p {
   padding: 0px 70px;
@@ -478,7 +481,7 @@ Header TopBar
 }
 
 .navbar-nav .nav-link:hover {
-  color: #20ad96;
+  color: #10477A;
 }
 
 .navbar-nav .nav-link i {
@@ -530,7 +533,7 @@ Header TopBar
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #20ad96;
+  background-color: #385777;
 }
 
 .dropdown-toggle::after {
@@ -544,7 +547,7 @@ Header TopBar
   border: 0px;
   padding: 0px;
   position: absolute;
-  border-top: 2px solid #20ad96;
+  border-top: 2px solid #385777;
   min-width: 220px;
 }
 
@@ -740,7 +743,7 @@ Features
   font-size: 70px;
   line-height: 70px;
   margin-bottom: 25px;
-  color: #DD283F;
+  color: #385777;
   transition: .4s;
 }
 
@@ -822,9 +825,17 @@ Course category Section
   background: url("../images/course/course4.jpg") center center no-repeat;
   background-size: cover;
 }
-
+ul:not([class]) li:before{background-color: #385777;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  left: 0;
+  margin: 0px 5px;
+  top: 15px;
+  vertical-align: middle;
+  width: 8px;}
 .single-course-category {
-  padding: 60px 25px 50px;
+  padding: 20px 10px 20px;
   text-align: center;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -832,6 +843,10 @@ Course category Section
   transition: all .4s ease 0s;
   position: relative;
   z-index: 1;
+  background: #385777;
+}
+.single-course-category:hover{
+  background: #D6203B;
 }
 
 .single-course-category:before {
@@ -977,7 +992,7 @@ Course Block
 .course-img .course-price {
   position: absolute;
   content: "";
-  background: #DD283F;
+  background: #385777;
   font-weight: 700;
   color: #385777;
   color: #fff;
@@ -993,12 +1008,12 @@ Course Block
 .course-img .course-price2 {
   position: absolute;
   content: "";
-  background: #20ad96;
+  background: #385777;
   font-weight: 700;
   color: #385777;
   color: #fff;
   top: 0px;
-  right: 20px;
+  left: 0px;
   text-align: center;
   font-size: 26px;
   padding: 10px 20px;
@@ -1130,7 +1145,7 @@ Course Filter Tab
 .course-filter li a:hover, .course-filter li.active a, .f-link li a:hover, .f-link li.active a {
   color: #fff;
   border-color: #20ad96;
-  background: #20ad96;
+  background: #385777;
 }
 
 .course.gutter .course-item {

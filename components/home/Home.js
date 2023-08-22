@@ -5,6 +5,8 @@ import Feature from './Feature'
 import Servicein from './Servicein'
 import Blogs from './Blogs'
 import Newsletter from './Newsletter'
+import Techtrend from './Techtrend'
+import Solutiondeliver from './Solutiondeliver'
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
        <Feature/>
        <Aboutin/> 
        <Servicein/>
+       <Solutiondeliver/>
+       <Techtrend/>
        <Blogs/>
        <Newsletter/>
     </div>

@@ -15,7 +15,7 @@ function Aboutin() {
         </div>
       </div>
       <div className="col-xl-6 pl-5 col-lg-6">
-        <div className="section-heading mt-4 mt-lg-0 ">
+        <div className="section-heading mt-4 mt-lg-0 list">
           <span className="subheading">Self Development Course</span>
           <h3>
             Get Instant Access To <span> Expert solution</span>
