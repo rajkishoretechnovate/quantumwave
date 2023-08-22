@@ -1,6 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Link from 'next/link'
-function Header() {
+function Navbar() {
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+      setMenuOpen(!isMenuOpen);
+    };
   return (
     <div>
       <header>
@@ -20,18 +25,20 @@ function Header() {
         </a> */}
               {/* Toggler */}
               <button
-                className="navbar-toggler"
+              className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
+              onClick={toggleMenu}
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarMenu"
                 aria-controls="navbarMenu"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                
               >
                 <span className="fa fa-bars" />
               </button>
               {/* Collapse */}
-              <div className="collapse navbar-collapse" id="navbarMenu">
+              <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`}  id="navbarMenu">
                 <ul className="navbar-nav mx-auto">
                   <li className="nav-item">
                     <Link
@@ -171,4 +178,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Navbar

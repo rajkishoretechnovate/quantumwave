@@ -7,11 +7,12 @@ import Blogs from './Blogs'
 import Newsletter from './Newsletter'
 import Techtrend from './Techtrend'
 import Solutiondeliver from './Solutiondeliver'
+import BannerSlider from '../header/BannerSlider'
 
 function Home() {
   return (
     <div>
-       <Banner/>
+      <BannerSlider/>
        <Feature/>
        <Aboutin/> 
        <Servicein/>

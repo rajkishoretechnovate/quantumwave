@@ -18,6 +18,7 @@ export default function Document() {
         <link rel="stylesheet" href="assets/vendors/owl/assets/owl.theme.default.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/css/responsive.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"/>
       </Head>
       <body>
         <Main />
@@ -35,6 +36,7 @@ export default function Document() {
 <script src="assets/vendors/google-map/map.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
 <script src="assets/js/script.js"></script>
+<script src="assets/js/navbar.js"></script>
       </body>
     </Html>
   )
