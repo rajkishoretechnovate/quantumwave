@@ -8,7 +8,6 @@ export default function Document() {
         <meta name="description" content="Education LMS template by Dreambuzz" />
         <meta name="keywords" content="Eduhash,education,lms,seo,course,online,learning,caoch,training,tutor" />
         <meta name="author" content="themeturn.com" />
-        <title>Quantum Wave AI</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets/vendors/bootstrap/bootstrap.css" />
         <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.css" />

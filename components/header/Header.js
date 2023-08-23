@@ -13,7 +13,7 @@ function Header() {
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid container-padding">
               <a className="navbar-brand" href="#">
-                <img src="assets/images/qlogo.png" alt="Quantum wave AI" className="img-fluid" />
+                <img src="assets/images/qlogowhite.png" alt="Quantum wave AI" className="img-fluid" />
               </a>
               {/* <a className="navbar-brand" href="index.html">
           <h2>QuantumWaveAI</h2>

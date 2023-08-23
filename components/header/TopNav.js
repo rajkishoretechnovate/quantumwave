@@ -4,7 +4,7 @@ function TopNav() {
   return (
     <React.Fragment>
     <div className="header-top ">
-          <div className="container-fluid container-padding">
+          <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6">
                 <p>
@@ -12,11 +12,20 @@ function TopNav() {
                 </p>
               </div>
               <div className="col-lg-6 col-md-6">
-                <div className="header-right float-lg-end">
-                  <a href="#">Join Now</a>
-                  <a href="#">Courses</a>
-                  <a href="#">Membership Login</a>
-                </div>
+              <div className="header-socials social-links d-none d-lg-none d-xl-block text-right">
+                    <a href="#">
+                      <i className="fab fa-facebook-f" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-twitter" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-linkedin" />
+                    </a>
+                    <a href="#">
+                      <i className="fab fa-pinterest" />
+                    </a>
+                  </div>
               </div>
             </div>
           </div>

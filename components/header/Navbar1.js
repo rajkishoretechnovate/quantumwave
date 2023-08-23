@@ -11,7 +11,7 @@ function Navbar1() {
                         <div className="header-item item-left">
                             <div className="logo">
                             <a className="navbar-brand" href="#">
-                            <img src="assets/images/qlogo.png" alt="Quantum wave AI" className="img-fluid" />
+                            <img src="assets/images/qlogowhite.png" alt="Quantum wave AI" className="img-fluid" />
                           </a>
                             </div>
                         </div>

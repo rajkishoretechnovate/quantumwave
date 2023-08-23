@@ -394,7 +394,8 @@ Header TopBar
   font-size: 14px;
   padding: 6px 0px;
   font-family: "Kumbh Sans", sans-serif;
-  background: #385777;
+  background: #000;
+  border-bottom:1px solid #fff;
 }
 
 .header-top p {
@@ -431,7 +432,7 @@ Header TopBar
 
 .social-links a {
   margin-left: 10px;
-  color: #222;
+  color: #fff;
 }
 
 /*-------------------
@@ -827,7 +828,7 @@ Course category Section
 }
 ul:not([class]) li:before{background-color: #385777;
   content: "";
-  display: inline-block;
+  /* display: inline-block; */
   height: 8px;
   left: 0;
   margin: 0px 5px;
@@ -1555,7 +1556,7 @@ Testimonial
 Footer Section
 ======================*/
 .footer {
-  background: #EBF4F8;
+  background: #000;
   padding: 80px 0px 0px;
   position: relative;
 }
@@ -1563,20 +1564,21 @@ Footer Section
 .footer .footer-widget .widget-title {
   margin-bottom: 20px;
   font-size: 22px;
+  color:#fff;
 }
 
 .footer .footer-links li {
   padding: 5px 0px;
   font-size: 15px;
-  color: #222;
+  color: #fff;
 }
 
 .footer .footer-links a {
-  color: #222;
+  color: #fff;
 }
 
 .footer .footer-links a:hover {
-  color: #20ad96;
+  color: #000;
 }
 
 .footer .footer-socials {
@@ -1599,9 +1601,12 @@ Footer Section
   padding: 20px 0px 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+.footer-widget p{color:#fff;}
+ul.list-inline.footer-socials li a{color:#fff;}
 
 .footer-btm p {
   margin-bottom: 0px;
+  color:#fff;
 }
 
 .footer-btm .footer-contact {
@@ -1609,7 +1614,7 @@ Footer Section
 }
 
 .footer-btm .footer-contact a {
-  color: #000;
+  color: #fff;
   font-family: "Kumbh Sans", sans-serif;
   margin-left: 10px;
 }
