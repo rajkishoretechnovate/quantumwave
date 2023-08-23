@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 function Navbar1() {
     return (
         <React.Fragment>
@@ -26,13 +27,14 @@ function Navbar1() {
                                     <div className="mobile-menu-close">×</div>
                                 </div>
                                 <ul className="menu-main">
+                        
+
                                     <li className="nav-link ">
-                                        <a href="#">Home</a>
+                                     <a href="/"> Home</a>
                                     </li>
-                                    <li>
-                                        <a href="#">About Us</a>
+                                    <li className="nav-link ">
+                                     <a href="/about"> About Us</a>
                                     </li>
-                                    
                                     <li className="menu-item-has-children">
                                         <a href="#">Consulting<i className="fa fa-angle-down" /></a>
                                         <div className="sub-menu mega-menu mega-menu-column-4">
@@ -128,7 +130,7 @@ function Navbar1() {
                                         <a href="#">Blog</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact</a>
+                                        <a href="/contact">Contact</a>
                                     </li>
                                 </ul>
                             </nav>

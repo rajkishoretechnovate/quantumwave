@@ -264,6 +264,7 @@ a{
 	line-height: 1;
 	padding:10px 0;
 }
+
 .header .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item.text-center .title{
 	text-align: center;
 }
@@ -887,4 +888,26 @@ position: absolute;
 left:9%;
 top: 52%;
 
+}
+/* Add animated underline to h4 elements on hover */
+.menu-item-has-children .sub-menu .list-item h4.title {
+  position: relative;
+}
+
+.menu-item-has-children .sub-menu .list-item h4.title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px; /* Adjust this value to control the distance of the underline from the text */
+  height: 2px; /* Adjust this value to control the thickness of the underline */
+  background-color:rgb(35,186,210); /* Change this color to the desired underline color */
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+  width: 50px;
+}
+
+.menu-item-has-children .sub-menu .list-item h4.title:hover::after {
+  transform: scaleX(1);
 }

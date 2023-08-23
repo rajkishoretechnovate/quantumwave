@@ -1570,15 +1570,15 @@ Footer Section
 .footer .footer-links li {
   padding: 5px 0px;
   font-size: 15px;
-  color: #fff;
+  color: #fff  !important;
 }
 
 .footer .footer-links a {
-  color: #fff;
+  color: #fff  !important;
 }
 
 .footer .footer-links a:hover {
-  color: #000;
+  color: #fff !important;
 }
 
 .footer .footer-socials {

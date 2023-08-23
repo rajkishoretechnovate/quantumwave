@@ -4,7 +4,7 @@ function Footer() {
   return (
 
     <div>
-        <>
+        <React.Fragment>
   <section className="footer">
     <div className="container">
       <div className="row">
@@ -45,45 +45,56 @@ function Footer() {
         </div>
         <div className="col-lg-2 col-sm-6 col-md-6 col-xl-2">
           <div className="footer-widget mb-5 mb-lg-0">
-            <h5 className="widget-title">Explore</h5>
+            <h5 className="widget-title">Consulting</h5>
             <ul className="list-unstyled footer-links">
-              <li>
-                <a href="#">About us</a>
+            <li>
+            <a href="#">Management Consulting
+            </a>
+          </li>
+          <li>
+                <a href="#">Performance testing 
+                </a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a href="#">Test Automation 
+
+                </a>
               </li>
               <li>
-                <a href="#">Projects</a>
+                <a href="#">Security 
+                </a>
               </li>
               <li>
-                <a href="#">Terms &amp; Condition</a>
+                <a href="#">Splunk 
+                </a>
               </li>
-              <li>
-                <a href="#">Privacy policy</a>
-              </li>
+             
             </ul>
           </div>
         </div>
         <div className="col-lg-2 col-sm-6 col-md-6 col-xl-2">
           <div className="footer-widget mb-5 mb-lg-0">
-            <h5 className="widget-title">Courses</h5>
+            <h5 className="widget-title">Technology</h5>
             <ul className="list-unstyled footer-links">
-              <li>
-                <a href="#">SEO Business</a>
+            <li>
+                <a href="#">Artificial Intelligence
+                </a>
               </li>
               <li>
-                <a href="#">Digital Marketing</a>
+                <a href="#">DevOps - CI CD 
+                </a>
               </li>
               <li>
-                <a href="#">Graphic Design</a>
+                <a href="#">Cloud Native</a>
               </li>
               <li>
-                <a href="#">Site Development</a>
+                <a href="#">Microservices</a>
               </li>
               <li>
-                <a href="#">Social Marketing</a>
+                <a href="#">Blockchain</a>
               </li>
+              
+              
             </ul>
           </div>
         </div>
@@ -105,7 +116,12 @@ function Footer() {
           <div className="col-xl-6 col-lg-6">
             <div className="copyright text-lg-start text-center">
               <p>
-                © Copyright EduHash Template All rights reserved.Crafted by{" "}
+                © Copyright quantumwaveai Template All rights reserved.
+                
+              </p>
+              <p>
+                
+                Designed And Developed by{" "}
                 <a href="#">Digitalvate</a>{" "}
               </p>
             </div>
@@ -139,7 +155,7 @@ function Footer() {
       <i className="fa fa-angle-up" />
     </a>
   </div>
-</>
+</React.Fragment>
 
     </div>
   )
