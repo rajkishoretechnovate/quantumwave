@@ -9,7 +9,7 @@ function Techtrend() {
                         <div className="col-lg-7">
                             <div className="section-heading center-heading">
                                 <span className="subheading">Trending Courses</span>
-                                <h3>Over 200+ New Online Courses</h3>
+                                <h3>Consulting</h3>
                                 <p>
                                     The ultimate planning solution for busy women who want to reach
                                     their personal goals
@@ -57,7 +57,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/a1.jpg"
+                                        src="assets/images/technology/test.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />
@@ -105,7 +105,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/c2.jpg"
+                                        src="assets/images/technology/c21.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />
@@ -153,7 +153,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/d1.png"
+                                        src="assets/images/technology/dev.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />
@@ -201,7 +201,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/c1.webp"
+                                        src="assets/images/technology/c11.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />
@@ -249,7 +249,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/m1.jpg"
+                                        src="assets/images/technology/micro.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />
@@ -297,7 +297,7 @@ function Techtrend() {
                             <div className="course-block">
                                 <div className="course-img">
                                     <img
-                                        src="assets/images/technology/blockchain.jpg"
+                                        src="assets/images/technology/bloch.jpg"
                                         alt=""
                                         className="img-fluid"
                                     />

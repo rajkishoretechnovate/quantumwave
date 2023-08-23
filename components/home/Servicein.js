@@ -9,7 +9,7 @@ function Servicein() {
       <div className="col-lg-7">
         <div className="section-heading center-heading">
           <span className="subheading">Trending Courses</span>
-          <h3>Popular Online Courses Around You</h3>
+          <h3>Technology And Innovation</h3>
           <p>
             The ultimate planning solution for busy women who want to reach
             their personal goals
@@ -22,16 +22,16 @@ function Servicein() {
         <div className="course-block">
           <div className="course-img">
             <img
-              src="assets/images/course/course-11.jpg"
+              src="/assets/images/technology/Microservices and Cloud native applications2.jpg"
               alt=""
               className="img-fluid"
             />
-            <div className="course-price ">$120 </div>
+            
           </div>
           <div className="course-content">
-            <span className="course-cat">Graphic design</span>
+            <span className="course-cat">Microservices and Cloud native </span>
             <h4>
-              <a href="#">Information About UI/UX Design Degree</a>
+              <a href="#">An intro to cloud-native microservices and how to build them</a>
             </h4>
             <div className="course-meta">
               <span className="course-student">
@@ -50,16 +50,17 @@ function Servicein() {
         <div className="course-block">
           <div className="course-img">
             <img
-              src="assets/images/course/course-11.jpg"
+              src="/assets/images/technology/DevOps.jpg"
               alt=""
               className="img-fluid"
             />
-            <div className="course-price ">$100 </div>
+           
           </div>
           <div className="course-content">
-            <span className="course-cat">Web design</span>
+            <span className="course-cat">DevOps - CI CD 
+            </span>
             <h4>
-              <a href="#">React – The Complete Guide (React Router)</a>
+              <a href="#">Everything you need to know about DevOps for Data</a>
             </h4>
             <div className="course-meta">
               <span className="course-student">
@@ -78,16 +79,17 @@ function Servicein() {
         <div className="course-block">
           <div className="course-img">
             <img
-              src="assets/images/course/course-11.jpg"
+              src="/assets/images/technology/ai1.jpg"
               alt=""
               className="img-fluid"
             />
-            <div className="course-price ">$100 </div>
+           
           </div>
           <div className="course-content">
-            <span className="course-cat">photography</span>
+            <span className="course-cat">Artificial Intelligence
+            </span>
             <h4>
-              <a href="#">Photography Crash Course for Photographer</a>
+              <a href="#">Artificial intelligence is extending what we can do with our abilities.</a>
             </h4>
             <div className="course-meta">
               <span className="course-student">
@@ -105,13 +107,13 @@ function Servicein() {
     </div>
     <div className="row justify-content-center">
       <div className="col-xl-6">
-        <div className="text-center mt-5">
+       {/*<div className="text-center mt-5">
           Take the control of their life back and start doing things to make
           their dream come true.{" "}
           <a href="course.html" className="font-weight-bold text-underline">
             View all courses{" "}
           </a>
-        </div>
+        </div>*/} 
       </div>
     </div>
   </div>

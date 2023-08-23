@@ -24,7 +24,7 @@ const NextArrow = (props) => (
 const BannerSlider = () => {
   const bannerData = [
     {
-      image: '/assets/images/banner/bg11.png' ,
+      image: '/assets/images/banner/bg11.jpg' ,
       caption:  <h5>Welcome Our Handstand</h5>,
       subhead:<h1>Keep <span>Refresh & Strong</span> Your Body</h1>,
       button:  <a className="home-btn banner-btn" href="#" data-text="read more"><span>read more</span></a>,
@@ -32,7 +32,7 @@ const BannerSlider = () => {
     },
     
     {
-      image: '/assets/images/banner/bg33.jpg',
+      image: '/assets/images/banner/ban1.jpg',
        caption:  <h5>Welcome Our Handstand</h5>,
       subhead:<h1>Keep <span>Refresh & Strong</span> Your Body</h1>,
       button:  <a className="home-btn banner-btn" href="#" data-text="read more"><span>read more</span></a>,

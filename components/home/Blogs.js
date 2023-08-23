@@ -23,7 +23,7 @@ function Blogs() {
         <article className="blog-post-item">
           <div className="post-thumb">
             <img
-              src="assets/images/blog/course-11.jpg"
+              src="/assets/images/consulting/aws-eks.jpg"
               alt=""
               className="img-fluid"
             />
@@ -50,7 +50,7 @@ function Blogs() {
         <article className="blog-post-item">
           <div className="post-thumb">
             <img
-              src="assets/images/blog/course-11.jpg"
+              src="/assets/images/consulting/blockchain.jpg"
               alt=""
               className="img-fluid"
             />
@@ -77,7 +77,7 @@ function Blogs() {
         <article className="blog-post-item">
           <div className="post-thumb">
             <img
-              src="assets/images/blog/course-11.jpg"
+              src="/assets/images/consulting/GettyImages-1197646065.webp"
               alt=""
               className="img-fluid"
             />

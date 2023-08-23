@@ -69,6 +69,11 @@ function Navbar1() {
                                             <a href="#"><h4 className="title">High Performance Computing for Cloud (HPC4C)</h4></a>
                                             <a href="#"><h4 className="title">AI-Driven Solution Development with improved time-to-market</h4></a>
                                             <a href="#"><h4 className="title">Customer experience transformation </h4></a>
+                                            
+                                               
+                                            </div>
+                                            <div className="list-item">
+                                            
                                             <a href="#"><h4 className="title">Customer Service transformation </h4></a>
                                             <a href="#"><h4 className="title">Project Management Consulting </h4></a>
                                                
@@ -79,28 +84,39 @@ function Navbar1() {
                                     <li className="menu-item-has-children">
                                         <a href="#">Technology<i className="fa fa-angle-down" /></a>
                                         <div className="sub-menu mega-menu mega-menu-column-4">
-                                          
+                                        
                                                 
                                             <div className="list-item">
                                             <a href="#"><h4 className="title">Microservices and Cloud native applications</h4></a>
                                             <a href="#"><h4 className="title">Cloud - AWS (EKS) , GCP (GKS) and Azure (AKS)</h4></a>
                                             <a href="#"><h4 className="title">DevOps - CI CD</h4></a>
-                                            <a href="#"><h4 className="title">Blockchain solution development</h4></a>
+                                          
                                             
-                                            </div>
-                                            <div className="list-item">
-                                            
-                                            <a href="#"><h4 className="title">Test Automation</h4></a>
-                                            <a href="#"><h4 className="title">Performance testing</h4></a>
-                                            <a href="#"><h4 className="title">Security</h4></a>
-                                            <a href="#"><h4 className="title">Artificial Intelligence</h4></a>
                                             </div>
                                             <div className="list-item">
                                             
                                             <a href="#"><h4 className="title">Logging, Monitoring and Alerting</h4></a>
+                                            <a href="#"><h4 className="title">Blockchain solution development</h4></a>
+                                            <a href="#"><h4 className="title">Performance testing</h4></a>
+                                            
+                                            
+                                               
+                                            </div>
+                                            <div className="list-item">
+                                        <a href="#"><h4 className="title">Artificial Intelligence</h4></a>  
+                                        <a href="#"><h4 className="title">Test Automation</h4></a>
+                                        <a href="#"><h4 className="title">Security</h4></a>
+                                       
+                                        </div>
+                                            
+                                           
+                                            
+                                            <div className="list-item">
+                                            
+                                            <a href="#"><h4 className="title">Datadog</h4></a>
                                             <a href="#"><h4 className="title">Splunk</h4></a>
                                             <a href="#"><h4 className="title">ELK</h4></a>
-                                            <a href="#"><h4 className="title">Datadog</h4></a>
+                                            
                                             
                                                
                                             </div>
