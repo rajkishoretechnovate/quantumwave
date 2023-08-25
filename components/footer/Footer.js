@@ -116,34 +116,31 @@ function Footer() {
           <div className="col-xl-6 col-lg-6">
             <div className="copyright text-lg-start text-center">
               <p>
-                © Copyright quantumwaveai Template All rights reserved.
-                
-              </p>
-              <p>
-                
-                Designed And Developed by{" "}
-                <a href="#">Digitalvate</a>{" "}
+                © Copyright Quantumwaveai All rights reserved.
+               
               </p>
             </div>
           </div>
-          <div className="col-xl-6 col-lg-6">
-            <ul className="list-inline footer-contact text-lg-end text-center mt-4 mt-lg-0">
+          <div className="col-xl-6 col-lg-6 text-right">
+          <p>
+                
+                Designed & Developed by{" "}
+                <a href="#">Digitalvate</a>{" "}
+              </p>
+            {/* <ul className="list-inline footer-contact text-lg-end text-center mt-4 mt-lg-0">
               <li className="list-inline-item">
                 <a href="#">Home</a>
               </li>
               <li className="list-inline-item">
-                <a href="#">Courses</a>
-              </li>
+                <a href="#">About</a>
+              </li>             
               <li className="list-inline-item">
-                <a href="#">Blog</a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#">Support</a>
+                <a href="#">Blogs</a>
               </li>
               <li className="list-inline-item">
                 <a href="#">Contact</a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>

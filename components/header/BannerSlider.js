@@ -32,7 +32,7 @@ const BannerSlider = () => {
     },
     
     {
-      image: '/assets/images/banner/bg22.jpg',
+      image: '/assets/images/banner/ban2.jpg',
        caption:  <h5>Welcome Our Handstand</h5>,
       subhead:<h1>Keep <span>Refresh & Strong</span> Your Body</h1>,
       button:  <a className="home-btn banner-btn" href="#" data-text="read more"><span>read more</span></a>,
