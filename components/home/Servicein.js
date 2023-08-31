@@ -8,8 +8,8 @@ function Servicein() {
     <div className="row align-items-center justify-content-center">
       <div className="col-lg-7">
         <div className="section-heading center-heading">
-          <span className="subheading">Trending Courses</span>
-          <h3>Technology And Innovation</h3>
+          <span className="subheading">Creating Value Together</span>
+          <h3>Services</h3>
           <p>
             The ultimate planning solution for busy women who want to reach
             their personal goals
@@ -29,7 +29,7 @@ function Servicein() {
             
           </div>
           <div className="course-content">
-            <span className="course-cat">Microservices and Cloud native </span>
+            <span className="course-cat">Cloud services </span>
             <h4>
               <a href="#">An intro to cloud-native microservices and how to build them</a>
             </h4>
@@ -50,14 +50,13 @@ function Servicein() {
         <div className="course-block">
           <div className="course-img">
             <img
-              src="/assets/images/technology/DevOps.jpg"
-              alt=""
+              src="/assets/images/technology/mobileapp.jpg"
               className="img-fluid"
             />
            
           </div>
           <div className="course-content">
-            <span className="course-cat">DevOps - CI CD 
+            <span className="course-cat">Mobile Application Development
             </span>
             <h4>
               <a href="#">Everything you need to know about DevOps for Data</a>
@@ -86,7 +85,7 @@ function Servicein() {
            
           </div>
           <div className="course-content">
-            <span className="course-cat">Artificial Intelligence
+            <span className="course-cat">AI/ML Solutions
             </span>
             <h4>
               <a href="#">Artificial intelligence is extending what we can do with our abilities.</a>
@@ -114,6 +113,15 @@ function Servicein() {
             View all courses{" "}
           </a>
         </div>*/} 
+      </div>
+    </div>
+    <div className="row">
+      <div className="col-xl-12">
+        <div className="text-center mt-5">
+          <a href="#" className="btn btn-solid-border">
+            Explore All
+          </a>
+        </div>
       </div>
     </div>
   </div>

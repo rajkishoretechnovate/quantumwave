@@ -9,7 +9,7 @@ function Navbar1() {
             <header className="header">
                 <div className="container">
                     <div className="row v-center">
-                        <div className="header-item item-left">
+                        <div className="header-item item-left ">
                             <div className="logo">
                             <a className="navbar-brand" href="#">
                             <img src="assets/images/qlogowhite.png" alt="Quantum wave AI" className="img-fluid" />
@@ -17,7 +17,7 @@ function Navbar1() {
                             </div>
                         </div>
                         {/* menu start here */}
-                        <div className="header-item item-center">
+                        <div className="header-item item-center ">
                             <div className="menu-overlay">
                             </div>
                             <nav className="menu">
@@ -35,100 +35,118 @@ function Navbar1() {
                                     <li className="nav-link ">
                                      <a href="/about"> About Us</a>
                                     </li>
+                                    <li class="menu-item-has-children">
+ 							<a href="#" className="title">Services <i class="fas fa-angle-down"></i></a>
+ 							<div class="sub-menu single-column-menu">
+ 								<ul>
+ 									<li><a href="#" className="title1">Blockchain Development</a></li>
+ 									<li><a href="#" className="title1">Application Services</a></li>
+ 									<li><a href="#" className="title1">Software Development</a></li>
+                                     <li><a href="#" className="title1">Mobile Application Development</a></li>
+                                     <li><a href="#" className="title1">Cloud services</a></li>
+                                     <li><a href="#" className="title1">Internet of Things</a></li>
+                                     <li><a href="#" className="title1">AI/ML Solutions</a></li>
+                                     <li><a href="#" className="title1">Web Development </a></li>
+                                     <li><a href="#" className="title1">UI/UX Design </a></li>
+                                     <li><a href="#" className="title1">Testing and QA </a></li>
+                                     <li><a href="#" className="title1">Managed IT Services  </a></li>
+                                     <li><a href="#" className="title1">Data Analytics </a></li>
+                                     <li><a href="#" className="title1">Infrastructure Services </a></li>
+
+ 								</ul>
+ 							</div>
+ 						</li>
                                     <li className="menu-item-has-children">
-                                        <a href="#">Consulting<i className="fa fa-angle-down" /></a>
+                                        <a href="#">Technology<i className="fa fa-angle-down" /></a>
                                         <div className="sub-menu mega-menu mega-menu-column-4">
                                             <div className="list-item">
-                                                <h4 className="title"> High Performance Microservices Design</h4>
+                                                <h4 className="title">Trending</h4>
                                                 <ul>
-                                                    <li><a href="#">High Throughput</a></li>
-                                                    <li><a href="#">High Scalable</a></li>
-                                                    <li><a href="#">low latency</a></li>
-                                                    <li><a href="#">Highly Secure</a></li>
-                                                    <li><a href="#">Gold API Standard</a></li>
+                                                    <li><a href="#">Block Chain</a></li>
+                                                    <li><a href="#">Cloud</a></li>
+                                                    <li><a href="#">AI</a></li>
+                                                    <li><a href="#">ML</a></li>
+                                                    <li><a href="#">Big Data</a></li>
+                                                    <li><a href="#">Data Science</a></li>
+                                                    <li><a href="#">VR</a></li>
+                                                    <li><a href="#">AR</a></li>
                                                 </ul>
                                                 
                                             </div>
                                             <div className="list-item">
-                                            <h4 className="title">Rapid Cloud Microservice Prototyping</h4>
+                                            <h4 className="title">Programming</h4>
                                             <ul>
-                                                <li><a href="#">Serverless - AWS Lambda, GCP and Azure(Small traffic scenarios)</a></li>
-                                                <li><a href="#" className="title02">Containerization approach:(Low traffic spike)</a></li>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#" className="title02">Php</a></li>
                                                
-                                                <ul>
-                                                <li><a href="#" className="title1">AWS:ECS (Fargate, Baremetal)</a></li>
-                                                <li><a href="#" className="title1">Azure:Azure Container instances </a></li>
-                                                </ul>
-                                                <li><a href="#" className="title02">With K8s: (High traffic spike architecture)</a></li>
-                                                <ul>
-                                                <li><a href="#" className="title1">AWS - EKS, GCP - GKE, Azure - AKE</a></li>
-                                                <li><a href="#" className="title1">Install K8s Farget or EC2</a></li>
-                                                </ul>
+                                                
+                                                <li><a href="#" className="title1">.Net</a></li>
+                                                <li><a href="#" className="title1">Node JS</a></li>
+                                                
+                                                <li><a href="#" className="title02">Python</a></li>
+                                                
+                                                <li><a href="#" className="title1">Java Script</a></li>
+                                                <li><a href="#" className="title1">React Native</a></li>
+                                                <li><a href="#" className="title1">React Js</a></li>
+                                                <li><a href="#" className="title1">Next Js</a></li>
+                                                <li><a href="#" className="title1">C++</a></li>
+                                                
                                             </ul>
                                                 
                                             </div>
                                             <div className="list-item">
-                                            <a href="#"><h4 className="title">High Performance Computing for Cloud (HPC4C)</h4></a>
-                                            <a href="#"><h4 className="title">AI-Driven Solution Development with improved time-to-market</h4></a>
-                                            <a href="#"><h4 className="title">Customer experience transformation </h4></a>
-                                            
+                                            <h4 className="title">Platform</h4>
+                                            <ul>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#" className="title1">Amazon Web Services</a></li>
                                                
-                                            </div>
-                                            <div className="list-item">
-                                            
-                                            <a href="#"><h4 className="title">Customer Service transformation </h4></a>
-                                            <a href="#"><h4 className="title">Project Management Consulting </h4></a>
-                                               
-                                            </div>
-                                           
-                                        </div>
-                                    </li>
-                                    <li className="menu-item-has-children">
-                                        <a href="#">Technology<i className="fa fa-angle-down" /></a>
-                                        <div className="sub-menu mega-menu mega-menu-column-4">
-                                        
                                                 
-                                            <div className="list-item">
-                                            <a href="#"><h4 className="title">Microservices and Cloud native applications</h4></a>
-                                            <a href="#"><h4 className="title">Cloud - AWS (EKS) , GCP (GKS) and Azure (AKS)</h4></a>
-                                            <a href="#"><h4 className="title">DevOps - CI CD</h4></a>
-                                          
-                                            
-                                            </div>
-                                            <div className="list-item">
-                                            
-                                            <a href="#"><h4 className="title">Logging, Monitoring and Alerting</h4></a>
-                                            <a href="#"><h4 className="title">Blockchain solution development</h4></a>
-                                            <a href="#"><h4 className="title">Performance testing</h4></a>
-                                            
-                                            
+                                                <li><a href="#" className="title1">Salesforce</a></li>
+                                                <li><a href="#" className="title1">Microsoft</a></li>
+                                                
+                                                <li><a href="#" className="title02">Azure</a></li>
+                                                
                                                
+                                            </ul>
+                                                
                                             </div>
-                                            <div className="list-item">
-                                        <a href="#"><h4 className="title">Artificial Intelligence</h4></a>  
-                                        <a href="#"><h4 className="title">Test Automation</h4></a>
-                                        <a href="#"><h4 className="title">Security</h4></a>
-                                       
-                                        </div>
-                                            
                                            
                                             
-                                            <div className="list-item">
-                                            
-                                            <a href="#"><h4 className="title">Datadog</h4></a>
-                                            <a href="#"><h4 className="title">Splunk</h4></a>
-                                            <a href="#"><h4 className="title">ELK</h4></a>
-                                            
-                                            
-                                               
-                                            </div>
-                                           </div>
-                                        
+                                           
+                                        </div>
                                     </li>
+                                    <li class="menu-item-has-children">
+ 							<a href="#" className="title">Industry <i class="fas fa-angle-down"></i></a>
+ 							<div class="sub-menu single-column-menu">
+ 								<ul>
+ 									<li><a href="#" className="title1">Finance</a></li>
+ 									<li><a href="#" className="title1">Healthcare</a></li>
+ 									<li><a href="#" className="title1">Education</a></li>
+                                     <li><a href="#" className="title1">Retail</a></li>
+                                     <li><a href="#" className="title1">Transpostation</a></li>
+                                     <li><a href="#" className="title1">Manufacturing</a></li>
+                                     <li><a href="#" className="title1">Real estate</a></li>
+ 								</ul>
+ 							</div>
+ 						</li>
+                         <li class="menu-item-has-children">
+                         <a href="#">Products <i class="fas fa-angle-down"></i></a>
+                         <div class="sub-menu single-column-menu">
+                             <ul>
+                                 <li><a href="#">QYoga</a></li>
+                                 
+                             </ul>
+                         </div>
+                     </li>
+                        
+                                    
                                    
                                     <li>
                                         <a href="#">Blog</a>
                                     </li>
+                                    <li>
+                                    <a href="#">Case Studies</a>
+                                </li>
                                     <li>
                                         <a href="/contact">Contact</a>
                                     </li>
@@ -136,22 +154,7 @@ function Navbar1() {
                             </nav>
                         </div>
                         {/* menu end here */}
-                        <div className="d-flex align-items-center header-item item-right">
-                  <div className="header-socials social-links d-none d-lg-none d-xl-block">
-                    
-                  </div>
-                  <form action="#" className="header-form ms-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="search"
-                    />
-                    <i className="fa fa-search" />
-                  </form>
-                  <div class="mobile-menu-trigger">
- 					<span></span>
- 				</div>
-                </div>
+                        
                     </div>
                 </div>
             </header>
@@ -161,6 +164,22 @@ function Navbar1() {
 }
 
 export default Navbar1
+// <div className="d-flex align-items-center header-item item-right">
+//                         <div className="header-socials social-links d-none d-lg-none d-xl-block">
+                          
+//                         </div>
+//                         <form action="#" className="header-form ms-3">
+//                           <input
+//                             type="text"
+//                             className="form-control"
+//                             placeholder="search"
+//                           />
+//                           <i className="fa fa-search" />
+//                         </form>
+//                         <div class="mobile-menu-trigger">
+//                            <span></span>
+//                         </div>
+//                         </div>
 
 // <a href="#">
 //                       <i className="fab fa-facebook-f" />

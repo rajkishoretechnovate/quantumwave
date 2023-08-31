@@ -22,7 +22,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">DevOps - CI CD 
+            <a href="#">ERP
             </a>
           </h4>
           <p>15 courses</p>
@@ -31,7 +31,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Test Automation 
+            <a href="#">CRM
             </a>
           </h4>
           <p>21 courses</p>
@@ -40,7 +40,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Performance testing 
+            <a href="#">Enterprise application
             </a>
           </h4>
           <p>20 courses</p>
@@ -49,7 +49,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Security 
+            <a href="#">e-commerce
             </a>
           </h4>
           <p>12 courses</p>
@@ -58,7 +58,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Blockchain solution development 
+            <a href="#">Mobile apps
             </a>{" "}
           </h4>
           <p>21 courses</p>
@@ -68,7 +68,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Logging, Monitoring and Alerting 
+            <a href="#">Block Chain
 
             </a>
           </h4>
@@ -78,7 +78,7 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Cloud - AWS , GCP and Azure 
+            <a href="#">Azure 
 
             </a>
           </h4>
@@ -88,45 +88,16 @@ function Solutiondeliver() {
       <div className="col-xl-3 col-lg-3 col-md-6">
         <div className="single-course-category ">
           <h4>
-            <a href="#">Microservices and Cloud native
+            <a href="#">Ai/Ml 
             </a>
           </h4>
           <p>20 courses</p>
         </div>
       </div>
-      <div className="col-xl-3 col-lg-3 col-md-6">
-        <div className="single-course-category ">
-          <h4>
-            <a href="#">Splunk</a>
-          </h4>
-          <p>12 courses</p>
-        </div>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-6">
-        <div className="single-course-category ">
-          <h4>
-            <a href="#">ELK</a>
-          </h4>
-          <p>12 courses</p>
-        </div>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-6">
-        <div className="single-course-category ">
-          <h4>
-            <a href="#">Datadog</a>
-          </h4>
-          <p>12 courses</p>
-        </div>
-      </div>
-      <div className="col-xl-3 col-lg-3 col-md-6">
-        <div className="single-course-category ">
-          <h4>
-            <a href="#">Artificial Intelligence
-            </a>
-          </h4>
-          <p>12 courses</p>
-        </div>
-      </div>
+      
+      
+      
+      
     </div>
     <div className="row">
       <div className="col-xl-12">

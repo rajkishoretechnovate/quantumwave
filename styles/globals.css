@@ -152,7 +152,7 @@ a{
   background:#000;
 }
 .header .item-left{
-	flex:0 0 17%;
+	flex:0 0 22%;
 }
 .header .logo a{
 	font-size: 30px;
@@ -161,7 +161,7 @@ a{
 	text-decoration: none;
 }
 .header .item-center{
-	flex:0 0 65%;
+	flex:0 0 78%;
 }
 .header .item-right{
 	flex:0 0 17%;
@@ -216,8 +216,8 @@ a{
 .header .menu > ul > li .sub-menu > ul > li > a{
 	display: inline-block;
 	padding: 10px 0;
-	font-size: 17px;
-	color: rgb(56,87,119);
+	font-size: 15px;
+	color: rgb(255, 255, 255);
 	transition: color 0.3s ease;
 	text-decoration: none;
 	text-transform: capitalize;
@@ -248,7 +248,7 @@ a{
 
 .header .menu > ul > li .sub-menu.mega-menu-column-4{
   /* max-width: 1100px; */
-  width: 100%; 	
+  /* width: 100%; 	 */
   display: flex;
   flex-wrap: wrap;
   padding:20px 15px;
