@@ -9,8 +9,8 @@ function Blogs() {
     <div className="row align-items-center justify-content-center">
       <div className="col-lg-7">
         <div className="section-heading center-heading">
-          <span className="subheading">Blog News</span>
-          <h3>Latest From The Blog</h3>
+          <span className="subheading">News Room</span>
+          <h3>Latest From The Blog </h3>
           <p>
             The ultimate planning solution for busy women who want to reach
             their personal goals

@@ -8,7 +8,7 @@ function Aboutin() {
     <div className="row align-items-center">
       <div className="col-xl-6 col-lg-6">
         <div className="video-block">
-          <img src="assets/images/bg/about-3.png" alt="" className="img-fluid" />
+          <img src="assets/images/banner/robot.jpg" alt="" className="img-fluid" />
           {/*  <a href="#" className="video-icon">
             <i className="fa fa-play" />
           </a>*/}

@@ -9,7 +9,7 @@ function Techtrend() {
                         <div className="col-lg-7">
                             <div className="section-heading center-heading">
                                 <span className="subheading">Trending Courses</span>
-                                <h3>Consulting</h3>
+                                <h3>Products</h3>
                                 <p>
                                     The ultimate planning solution for busy women who want to reach
                                     their personal goals

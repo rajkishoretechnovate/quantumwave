@@ -8,172 +8,162 @@ function Navbar() {
     };
   return (
     <div>
-      <header>
-        
-        {/* Main Menu Start */}
-        <div
-          className="site-navigation main_menu menu-transparent"
-          id="mainmenu-area"
-        >
-          <nav className="navbar navbar-expand-lg">
-            <div className="container-fluid container-padding">
-              <a className="navbar-brand" href="#">
-                <img src="assets/images/qlogowhite.png" alt="Quantum wave AI" className="img-fluid" />
-              </a>
-              {/* <a className="navbar-brand" href="index.html">
-          <h2>QuantumWaveAI</h2>
-        </a> */}
-              {/* Toggler */}
-              <button
-              className={`navbar-toggler ${isMenuOpen ? 'active' : ''}`}
-              onClick={toggleMenu}
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarMenu"
-                aria-controls="navbarMenu"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-                
-              >
-                <span className="fa fa-bars" />
-              </button>
-              {/* Collapse */}
-              <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`}  id="navbarMenu">
-                <ul className="navbar-nav mx-auto">
-                  <li className="nav-item">
-                    <Link
-                      className="nav-link dropdown-toggle"
-                      href="/"
-                      id="navbar3"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Home
+    <header className="header">
+    <div className="container">
+      <div className="row v-center">
+        <div className="header-item item-left col-md-12">
+          <div className="logo navbar-brand">
+            <a href="#"> <img src="assets/images/qlogowhite.png" alt="Quantum wave AI" className="img-fluid" /></a>
+          </div>
+        </div>
+        {/* menu start here */}
+        <div className="header-item item-center">
+          <div className="menu-overlay">
+          </div>
+          <nav className="menu">
+            <div className="mobile-menu-head">
+              <div className="go-back"><i className="fa fa-angle-left" /></div>
+              <div className="current-menu-title" />
+              <div className="mobile-menu-close">×</div>
+            </div>
+            <ul className="menu-main">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li className="nav-link ">
+                                     <a href="/about"> About Us</a>
+                                    </li>
+                                    <li className="menu-item-has-children">
+ 							<a href="#" className="title">Services <i className="fas fa-angle-down"></i></a>
+ 							<div className="sub-menu single-column-menu">
+ 								<ul>
+ 									<li><a href="#" className="title1">Blockchain Development</a></li>
+ 									<li><a href="#" className="title1">Application Services</a></li>
+ 									<li><a href="#" className="title1">Software Development</a></li>
+                                     <li><a href="#" className="title1">Mobile Application Development</a></li>
+                                     <li><a href="#" className="title1">Cloud services</a></li>
+                                     <li><a href="#" className="title1">Internet of Things</a></li>
+                                     <li><a href="#" className="title1">AI/ML Solutions</a></li>
+                                     <li><a href="#" className="title1">Web Development </a></li>
+                                     <li><a href="#" className="title1">UI/UX Design </a></li>
+                                     <li><a href="#" className="title1">Testing and QA </a></li>
+                                     <li><a href="#" className="title1">Managed IT Services  </a></li>
+                                     <li><a href="#" className="title1">Data Analytics </a></li>
+                                     <li><a href="#" className="title1">Infrastructure Services </a></li>
 
-                    </Link>
-
-                  </li>
-                  <li className="nav-item ">
-                    <Link href="/about" className="nav-link js-scroll-trigger">
-                      About us
-                    </Link>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbar3"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Consulting <i class="fa fa-angle-down" />
-
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="navbar3">
-                    <ul className="">
-                      <li className="">
-                      <a className="dropdown-item " href="#">
-                      High Performance Microservices Design<i class="fa fa-angle-down" />
-                      </a>
-                      </li>
-                      </ul>
-                      <a className="dropdown-item " href="#">
-                      Rapid Cloud Microservice Prototyping
-                      </a>
-                      <a className="dropdown-item " href="#">
-                      High Performance Computing for Cloud (HPC4C)
-                      </a>
-                      <a className="dropdown-item " href="#">
-                      AI-Driven Solution Development
-                      </a>
-                    </div>
-                  </li>
-                  <li className="nav-item dropdown">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbar3"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Technology<i class="fa fa-angle-down" />
-
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="navbar3">
-                      <a className="dropdown-item " href="#">
-                        Cloud
-                      </a>
-                      <a className="dropdown-item " href="#">
-                        Test Automation
-                      </a>
-                      <a className="dropdown-item " href="#">
-                        Security
-                      </a>
-                      <a className="dropdown-item " href="#">
-                        Devops
-                      </a>
-                    </div>
-
-                  </li>
-                  <li className="nav-item ">
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      id="navbar3"
-                      role="button"
-                      data-toggle="dropdown"
-                      aria-haspopup="true"
-                      aria-expanded="false"
-                    >
-                      Blog
-
-                    </a>
-
-                  </li>
-                  <li className="nav-item ">
-                    <a href="/contact" className="nav-link">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-                <div className="d-flex align-items-center">
-                  <div className="header-socials social-links d-none d-lg-none d-xl-block">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-pinterest" />
-                    </a>
-                  </div>
-                  <form action="#" className="header-form ms-3">
-                    <input
-                      type="text"
-                      className="form-control"
-                      placeholder="search"
-                    />
-                    <i className="fa fa-search" />
-                  </form>
-                </div>
-              </div>{" "}
-              {/* / .navbar-collapse */}
-            </div>{" "}
-            {/* / .container */}
+ 								</ul>
+ 							</div>
+ 						</li>
+             <li className="menu-item-has-children">
+                                        <a href="#">Technology<i className="fa fa-angle-down" /></a>
+                                        <div className="sub-menu mega-menu mega-menu-column-4 container">
+                                            <div className="list-item">
+                                                <h4 className="title">Trending</h4>
+                                                <ul>
+                                                    <li><a href="#">Block Chain</a></li>
+                                                    <li><a href="#">Cloud</a></li>
+                                                    <li><a href="#">AI</a></li>
+                                                    <li><a href="#">ML</a></li>
+                                                    <li><a href="#">Big Data</a></li>
+                                                    <li><a href="#">Data Science</a></li>
+                                                    <li><a href="#">VR</a></li>
+                                                    <li><a href="#">AR</a></li>
+                                                </ul>
+                                                
+                                            </div>
+                                            <div className="list-item">
+                                            <h4 className="title">Programming</h4>
+                                            <ul>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#" className="title02">Php</a></li>
+                                               
+                                                
+                                                <li><a href="#" className="title1">.Net</a></li>
+                                                <li><a href="#" className="title1">Node JS</a></li>
+                                                
+                                                <li><a href="#" className="title02">Python</a></li>
+                                                
+                                                <li><a href="#" className="title1">Java Script</a></li>
+                                                <li><a href="#" className="title1">React Native</a></li>
+                                                <li><a href="#" className="title1">React Js</a></li>
+                                                <li><a href="#" className="title1">Next Js</a></li>
+                                                <li><a href="#" className="title1">C++</a></li>
+                                                
+                                            </ul>
+                                                
+                                            </div>
+                                            <div className="list-item">
+                                            <h4 className="title">Platform</h4>
+                                            <ul>
+                                                <li><a href="#">Java</a></li>
+                                                <li><a href="#" className="title1">Amazon Web Services</a></li>
+                                               
+                                                
+                                                <li><a href="#" className="title1">Salesforce</a></li>
+                                                <li><a href="#" className="title1">Microsoft</a></li>
+                                                
+                                                <li><a href="#" className="title02">Azure</a></li>
+                                                
+                                               
+                                            </ul>
+                                                
+                                            </div>
+                                           
+                                            
+                                           
+                                        </div>
+                                    </li>
+                                    <li className="menu-item-has-children">
+                                    <a href="#" className="title">Industry <i className="fas fa-angle-down"></i></a>
+                                    <div className="sub-menu single-column-menu">
+                                      <ul>
+                                        <li><a href="#" className="title1">Finance</a></li>
+                                        <li><a href="#" className="title1">Healthcare</a></li>
+                                        <li><a href="#" className="title1">Education</a></li>
+                                                          <li><a href="#" className="title1">Retail</a></li>
+                                                          <li><a href="#" className="title1">Transpostation</a></li>
+                                                          <li><a href="#" className="title1">Manufacturing</a></li>
+                                                          <li><a href="#" className="title1">Real estate</a></li>
+                                      </ul>
+                                    </div>
+                                  </li>
+                                              <li className="menu-item-has-children">
+                                              <a href="#">Products <i className="fas fa-angle-down"></i></a>
+                                              <div className="sub-menu single-column-menu">
+                                                  <ul>
+                                                      <li><a href="#">QYoga</a></li>
+                                                      
+                                                  </ul>
+                                              </div>
+                                          </li>
+                                             
+                                                         
+                                                        
+                                                         <li>
+                                                             <a href="#">Blog</a>
+                                                         </li>
+                                                         <li>
+                                                         <a href="#">Case Studies</a>
+                                                     </li>
+                                                         <li>
+                                                             <a href="/contact">Contact</a>
+                                                         </li>
+            </ul>
           </nav>
         </div>
-      </header>
-
+        {/* menu end here */}
+        <div className="header-item item-right">
+         
+         
+  
+          {/* mobile menu trigger */}
+          <div className="mobile-menu-trigger">
+            <span />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
     </div>
   )
 }

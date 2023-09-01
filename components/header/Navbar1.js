@@ -35,9 +35,9 @@ function Navbar1() {
                                     <li className="nav-link ">
                                      <a href="/about"> About Us</a>
                                     </li>
-                                    <li class="menu-item-has-children">
- 							<a href="#" className="title">Services <i class="fas fa-angle-down"></i></a>
- 							<div class="sub-menu single-column-menu">
+                                    <li className="menu-item-has-children">
+ 							<a href="#" className="title">Services <i className="fas fa-angle-down"></i></a>
+ 							<div className="sub-menu single-column-menu">
  								<ul>
  									<li><a href="#" className="title1">Blockchain Development</a></li>
  									<li><a href="#" className="title1">Application Services</a></li>
@@ -58,7 +58,7 @@ function Navbar1() {
  						</li>
                                     <li className="menu-item-has-children">
                                         <a href="#">Technology<i className="fa fa-angle-down" /></a>
-                                        <div className="sub-menu mega-menu mega-menu-column-4">
+                                        <div className="sub-menu mega-menu mega-menu-column-4 container">
                                             <div className="list-item">
                                                 <h4 className="title">Trending</h4>
                                                 <ul>
@@ -115,9 +115,9 @@ function Navbar1() {
                                            
                                         </div>
                                     </li>
-                                    <li class="menu-item-has-children">
- 							<a href="#" className="title">Industry <i class="fas fa-angle-down"></i></a>
- 							<div class="sub-menu single-column-menu">
+                                    <li className="menu-item-has-children">
+ 							<a href="#" className="title">Industry <i className="fas fa-angle-down"></i></a>
+ 							<div className="sub-menu single-column-menu">
  								<ul>
  									<li><a href="#" className="title1">Finance</a></li>
  									<li><a href="#" className="title1">Healthcare</a></li>
@@ -129,9 +129,9 @@ function Navbar1() {
  								</ul>
  							</div>
  						</li>
-                         <li class="menu-item-has-children">
-                         <a href="#">Products <i class="fas fa-angle-down"></i></a>
-                         <div class="sub-menu single-column-menu">
+                         <li className="menu-item-has-children">
+                         <a href="#">Products <i className="fas fa-angle-down"></i></a>
+                         <div className="sub-menu single-column-menu">
                              <ul>
                                  <li><a href="#">QYoga</a></li>
                                  
@@ -176,7 +176,7 @@ export default Navbar1
 //                           />
 //                           <i className="fa fa-search" />
 //                         </form>
-//                         <div class="mobile-menu-trigger">
+//                         <div className="mobile-menu-trigger">
 //                            <span></span>
 //                         </div>
 //                         </div>

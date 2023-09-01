@@ -4,10 +4,11 @@ import Aboutin from './Aboutin'
 import Feature from './Feature'
 import Servicein from './Servicein'
 import Blogs from './Blogs'
-import Newsletter from './Newsletter'
+// import Newsletter from './Newsletter'
 import Techtrend from './Techtrend'
 import Solutiondeliver from './Solutiondeliver'
 import BannerSlider from '../header/BannerSlider'
+import ContactForm from './ContactForm'
 
 function Home() {
   return (
@@ -19,7 +20,8 @@ function Home() {
        <Solutiondeliver/>
        <Techtrend/>
        <Blogs/>
-       <Newsletter/>
+       <ContactForm/>
+       
     </div>
   )
 }
